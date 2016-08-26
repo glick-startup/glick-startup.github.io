@@ -4,38 +4,6 @@
 
 
 /*------------------------------------*\
-  HEADER
-\*------------------------------------*/
-
-#hero{
-  height: 250px;
-  background-image: url('../assets/images/cover1.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-color: #1a1a1a;
-  z-index: -1; /*push to the background */
-}
-
-@media (min-width:768px){
-  #hero {
-    height: 450px;
-  }
-}
-
-@media all and (min-width: 992px) {
-  #hero{
-    background-attachment: fixed;
-  }
-}
-
-@media (min-width:1440px){
-  #hero {
-    height: 550px;
-  }
-}
-
-/*------------------------------------*\
   NAVIGATION
 \*------------------------------------*/
 
@@ -43,6 +11,7 @@
   position: sticky;
   top: 0;
   width: 100%;
+  font-size: 17px;
   background: white;
   border: 0; 
   z-index: 100;
@@ -61,36 +30,145 @@
   background-color: #25afe2;
 }
 
+.barname{
+    font-size: 17px;
+}
+
+.btn2{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #03cba4; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn2:hover{
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.24), 0 15px 30px 0 rgba(0,0,0,0.19);
+}
+
+#exampleInputEmail2{
+    width: 250px;
+}
+/*------------------------------------*\
+  LOGO SECTION
+\*------------------------------------*/
+
+#hero{
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-color: #25afe2;
+  z-index: -1; /*push to the background */
+}
+
+@media (min-width:768px){
+  #hero {
+    height: 450px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  #hero{
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width:1440px){
+  #hero {
+    height: 700px;
+  }
+}
+
+#logo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    margin: 0px;
+    letter-spacing: 8px;
+}
+
+
+.iphone1{
+    text-align: center;
+}
+
+#phoneimg{
+    height: 700px;   
+}
+
+.desclogo{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 10%;
+    
+}
+
+.desclogo #logo{
+    width: 300px;
+}
+
+.desclogo h4{
+    margin-top: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    width: 70%;
+    line-height: 22px;
+    
+}
 /*------------------------------------*\
   ABOUT
 \*------------------------------------*/
 
+#about{
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-color: #ffffff;
+  z-index: -1; /*push to the background */
+}
+
+@media (min-width:768px){
+  #about {
+    height: 450px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  #about{
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width:1440px){
+  #about {
+    height: 700px;
+  }
+}
 
 /*------------------------------------*\
-  SERVICES
+  FEATURES
 \*------------------------------------*/
 
-#services{
+#features{
   background: #F3F3F3;
 }
 
-.service{
+.features{
   margin-bottom: 30px;
 }
-
-.service i{
-	-webkit-transition: all 0.2s linear;
-}
-.service:hover i{
-	-webkit-transform: rotate(360deg);
-}
-
-.service h4{
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 600;
-}
-
 
 
 /*------------------------------------*\
