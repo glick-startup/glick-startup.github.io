@@ -1,0 +1,109 @@
+/*------------------------------------*\
+  GENERAL
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+  HEADER
+\*------------------------------------*/
+
+#hero{
+  height: 250px;
+  background-image: url('../assets/images/cover1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-color: #1a1a1a;
+  z-index: -1; /*push to the background */
+}
+
+@media (min-width:768px){
+  #hero {
+    height: 450px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  #hero{
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width:1440px){
+  #hero {
+    height: 550px;
+  }
+}
+
+/*------------------------------------*\
+  NAVIGATION
+\*------------------------------------*/
+
+#navigation{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: white;
+  border: 0; 
+  z-index: 100;
+
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.08);
+     -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.08);
+          box-shadow: 0 3px 3px rgba(0, 0, 0, 0.08);
+}
+
+#navigation a{
+  color: #25afe2;
+}
+
+#navigation a:hover{
+  color: white;
+  background-color: #25afe2;
+}
+
+/*------------------------------------*\
+  ABOUT
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+  SERVICES
+\*------------------------------------*/
+
+#services{
+  background: #F3F3F3;
+}
+
+.service{
+  margin-bottom: 30px;
+}
+
+.service i{
+	-webkit-transition: all 0.2s linear;
+}
+.service:hover i{
+	-webkit-transform: rotate(360deg);
+}
+
+.service h4{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+
+
+/*------------------------------------*\
+  FOOTER
+\*------------------------------------*/
+
+footer{
+  background: black;
+  padding: 25px 0;
+  text-align: center;
+  color:lightgrey;
+}
+
+#social-media li {
+  padding: 0 15px; /*more space to the icons sff*/
+}
