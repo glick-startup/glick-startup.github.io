@@ -241,6 +241,46 @@
 }
 
 
+/*------------------------------------*\
+  TEAM
+\*------------------------------------*/
+
+#features-list{
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+.teampic{
+    height: 200px;
+    border-radius: 100px;
+    
+}
+
+#team h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+    margin: 10% 20px 3% 20px;
+    color: #25afe2;
+    margin-bottom: 10%;
+}
+
+#team-list h4{
+    color: black;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+
+#team-list p{
+    color: #c0eaf4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
 
 /*------------------------------------*\
   FOOTER
