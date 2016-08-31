@@ -245,9 +245,19 @@
   TEAM
 \*------------------------------------*/
 
-#features-list{
+
+#team{
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+#team h1{
     text-align: center;
-    margin: 10px auto 10px auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+    margin: 0% 20px 2% 10px;
+    color: #25afe2;
+    margin-bottom: 10%;
 }
 
 .teampic{
@@ -256,17 +266,13 @@
     
 }
 
-#team h1{
+#team-list{
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 45px;
-    margin: 10% 20px 3% 20px;
-    color: #25afe2;
-    margin-bottom: 10%;
+    margin: 0px auto 10px auto;
 }
 
 #team-list h4{
-    color: black;
+    color: #404040;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
@@ -276,9 +282,15 @@
 }
 
 #team-list p{
-    color: #c0eaf4;
+    color: #25afe2;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+#team-list .sub{
+    color: #90c9de;
     font-size: 16px;
 }
 
